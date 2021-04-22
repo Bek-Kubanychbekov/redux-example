@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import ColorDisplay from "./components/ColorDisplay"
+import ColorSimpleControls from "./components/ColorSimpleControls"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<ColorDisplay/>
+<ColorSimpleControls/>
+ 
+
     </div>
   );
 }
 
 export default App;
+
